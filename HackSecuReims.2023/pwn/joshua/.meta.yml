@@ -1,5 +1,0 @@
-finished: False
-category: 'pwn'
-type:
-  - 'heap'
-  - 'kernel'

@@ -1,6 +1,6 @@
 finished: False
 category: 'pwn'
 pwn:
-  - type: 'kernel'
-  - notes:
+  type: 'kernel'
+  notes:
     - 'describe'
