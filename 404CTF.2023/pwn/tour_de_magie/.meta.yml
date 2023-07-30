@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'wasm'
+  notes:
+    - 'simple overflow'

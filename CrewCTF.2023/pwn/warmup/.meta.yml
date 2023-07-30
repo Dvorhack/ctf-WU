@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'stack'
+  notes:
+    - 'brute force canary and libc, ret2libc'

@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'stack'
+  notes:
+    - 'fmt for canary then ret2plt ret2win'

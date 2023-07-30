@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'heap'
+  notes:
+    - 'fastbin dup, tcache poisoning, leak environ, ROP, seccomp'
