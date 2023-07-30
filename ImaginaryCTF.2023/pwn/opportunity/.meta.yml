@@ -1,0 +1,7 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'kernel'
+  notes: 
+    - 'bypass kaslr, ROP'
+    - 'bypass kaslr, physmap'
