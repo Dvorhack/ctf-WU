@@ -1,0 +1,3 @@
+[submodule "404CTF.2023/rev/introspection/ghidra-headless-scripts"]
+	path = 404CTF.2023/rev/introspection/ghidra-headless-scripts
+	url = https://github.com/galoget/ghidra-headless-scripts.git
