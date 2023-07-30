@@ -8,6 +8,8 @@ Write-ups repo
 - ret2plt, ret2libc -> [la_ctf.2023/pwn/bot](./la_ctf.2023/pwn/bot/)
 - stack pivot, ret2plt, ret2libc -> [la_ctf.2023/pwn/stuff](./la_ctf.2023/pwn/stuff/)
 - basic PRNG break, ret2win -> [AmateursCTF.2023/pwn/rntk](./AmateursCTF.2023/pwn/rntk/)
+- seccomp no write, blind brute force flag shellcode -> [midnightCTF.2023/pwn/c_est_con](./midnightCTF.2023/pwn/c_est_con/)
+- basic ret2libc -> [midnightCTF.2023/pwn/babypwn](./midnightCTF.2023/pwn/babypwn/)
 ### misc
 - one byte overflow -> [HackSecuReims.2023/pwn/configuration_loader](./HackSecuReims.2023/pwn/configuration_loader/)
 - rust - c interconnexion -> [AmateursCTF.2023/pwn/ffi](./AmateursCTF.2023/pwn/ffi/)
@@ -18,6 +20,7 @@ Write-ups repo
 - find libc, got overwrite -> [HackSecuReims.2023/pwn/rot13_as_a_service](./HackSecuReims.2023/pwn/rot13_as_a_service/)
 - GOT overwrite -> [la_ctf.2023/pwn/rickroll](./la_ctf.2023/pwn/rickroll/)
 - RELRO so ROP -> [la_ctf.2023/pwn/rut_roh_relro](./la_ctf.2023/pwn/rut_roh_relro/)
+- GOT overwrite -> [midnightCTF.2023/pwn/tlv](./midnightCTF.2023/pwn/tlv/)
 ### file struct
 - leak with fwrite -> [IrisCTF.2023/pwn/babyseek](./IrisCTF.2023/pwn/babyseek/)
 ### shellcode

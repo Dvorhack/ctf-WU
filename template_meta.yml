@@ -1,6 +1,6 @@
-finished: False
+finished: True
 category: 'pwn'
 pwn:
-  type: 'kernel'
+  type: 'stack'
   notes:
-    - 'describe'
+    - 'seccomp no write, blind brute force flag shellcode'
