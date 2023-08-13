@@ -8,6 +8,7 @@ Write-ups repo
 - ret2plt, ret2libc -> [la_ctf.2023/pwn/bot](./la_ctf.2023/pwn/bot/)
 - stack pivot, ret2plt, ret2libc -> [la_ctf.2023/pwn/stuff](./la_ctf.2023/pwn/stuff/)
 - basic PRNG break, ret2win -> [AmateursCTF.2023/pwn/rntk](./AmateursCTF.2023/pwn/rntk/)
+- ret2dlresolve -> [ImaginaryCTF.2023/pwn/minimal](./ImaginaryCTF.2023/pwn/minimal/)
 - seccomp no write, blind brute force flag shellcode -> [midnightCTF.2023/pwn/c_est_con](./midnightCTF.2023/pwn/c_est_con/)
 - basic ret2libc -> [midnightCTF.2023/pwn/babypwn](./midnightCTF.2023/pwn/babypwn/)
 - fmt for canary then ret2plt ret2win -> [404CTF.2023/pwn/cohue](./404CTF.2023/pwn/cohue/)
@@ -20,6 +21,7 @@ Write-ups repo
 - int type juggeling -> [AmateursCTF.2023/pwn/hex](./AmateursCTF.2023/pwn/hex/)
 - exec elf with size constraint -> [AmateursCTF.2023/pwn/elf1](./AmateursCTF.2023/pwn/elf1/)
 - int type juggeling -> [AmateursCTF.2023/pwn/hex2](./AmateursCTF.2023/pwn/hex2/)
+- int overflow, function poiner exploit, format string -> [LIT.2023/pwn/sha_sha_shell](./LIT.2023/pwn/sha_sha_shell/)
 ### format string
 - find libc, got overwrite -> [HackSecuReims.2023/pwn/rot13_as_a_service](./HackSecuReims.2023/pwn/rot13_as_a_service/)
 - GOT overwrite -> [la_ctf.2023/pwn/rickroll](./la_ctf.2023/pwn/rickroll/)
@@ -29,6 +31,7 @@ Write-ups repo
 - ROP ret2libc -> [404CTF.2023/pwn/citation2](./404CTF.2023/pwn/citation2/)
 - overwrite __free_hook -> [404CTF.2023/pwn/protocole](./404CTF.2023/pwn/protocole/)
 - FULL RELRO, few space available -> [angstromCTF.2023/pwn/slack](./angstromCTF.2023/pwn/slack/)
+- leak et ret2main -> [LIT.2023/pwn/sprintf](./LIT.2023/pwn/sprintf/)
 ### file struct
 - leak with fwrite -> [IrisCTF.2023/pwn/babyseek](./IrisCTF.2023/pwn/babyseek/)
 ### shellcode
@@ -36,6 +39,7 @@ Write-ups repo
 - egg hunting -> [AmateursCTF.2023/pwn/perfect_sandbox](./AmateursCTF.2023/pwn/perfect_sandbox/)
 ### heap
 - fastbin dup -> [ImaginaryCTF.2023/pwn/mailman](./ImaginaryCTF.2023/pwn/mailman/)
+- UAF -> [FCSC.2023/pwn/robot](./FCSC.2023/pwn/robot/)
 - user after free -> [404CTF.2023/pwn/alchimiste](./404CTF.2023/pwn/alchimiste/)
 - fastbin dup, tcache poisoning, leak environ, ROP, seccomp -> [CrewCTF.2023/pwn/company](./CrewCTF.2023/pwn/company/)
 ### kernel
