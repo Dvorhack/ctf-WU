@@ -52,8 +52,6 @@ Write-ups repo
 ## reverse
 ### keygen
 - z3 contraints -> [404CTF.2023/rev/maj](./404CTF.2023/rev/maj/)
+- z3 conditions with LShR, If and ZeroExt -> [ECW_finales.2023/rev/Super Secure](./ECW_finales.2023/rev/Super Secure/)
 ### packer
 - multiple layer packer -> [404CTF.2023/rev/introspection](./404CTF.2023/rev/introspection/)
-## rev
-### keygen
-- z3 conditions with LShR, If and ZeroExt -> [ECW_finales.2023/rev/Super Secure](./ECW_finales.2023/rev/Super Secure/)
