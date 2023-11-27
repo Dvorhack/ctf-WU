@@ -1,0 +1,6 @@
+finished: False
+category: 'rev'
+rev:
+  type: 'z3'
+  notes:
+    - 'conditions z3'
