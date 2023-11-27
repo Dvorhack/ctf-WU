@@ -1,6 +1,6 @@
-finished: False
+finished: True
 category: 'rev'
 rev:
-  type: 'z3'
+  type: 'keygen'
   notes:
-    - 'conditions z3'
+    - 'z3 conditions with LShR, If and ZeroExt'
