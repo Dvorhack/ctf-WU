@@ -1,6 +1,6 @@
 finished: True
-category: 'rev'
-rev:
+category: 'reverse'
+reverse:
   type: 'keygen'
   notes:
     - 'z3 conditions with LShR, If and ZeroExt'
