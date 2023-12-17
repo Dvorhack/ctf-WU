@@ -1,0 +1,7 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'kernel'
+  notes: 
+    - 'kernel heap UAF, dump ramfs'
+

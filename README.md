@@ -25,6 +25,8 @@ Write-ups repo
 - user after free -> [404CTF.2023/pwn/alchimiste](./404CTF.2023/pwn/alchimiste/)
 - fastbin dup, tcache poisoning, leak environ, ROP, seccomp -> [CrewCTF.2023/pwn/company](./CrewCTF.2023/pwn/company/)
 ### kernel
+- kernel heap UAF, dump ramfs -> [corCTF.2023/pwn/kcipher](./corCTF.2023/pwn/kcipher/)
+- qemu monitor available -> [corCTF.2023/pwn/zeroday](./corCTF.2023/pwn/zeroday/)
 - bypass kaslr, ROP -> [ImaginaryCTF.2023/pwn/opportunity](./ImaginaryCTF.2023/pwn/opportunity/)
 - bypass kaslr, physmap -> [ImaginaryCTF.2023/pwn/opportunity](./ImaginaryCTF.2023/pwn/opportunity/)
 ### stack
