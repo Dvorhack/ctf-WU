@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'kernel'
+  notes:
+    - 'just do a syscall'

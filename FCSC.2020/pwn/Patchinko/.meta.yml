@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'misc'
+  notes:
+    - 'patch binary'

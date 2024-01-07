@@ -1,0 +1,26 @@
+from pwn import *
+
+data = open('ecsc_mod.ko','rb').read()
+
+normal = b'\x0f\x20\xc2\x48\x89\xd1\x48\x81\xe1\xff\xff\xfe\xff\x0f\x22\xc1\x48\x8b\x88\xc8\x06\x00\x00\x48\xc7\x80\xc8\x06\x00\x00\x30\x00\x10\x00\x48\x89\x0d\x7d\x03\x00\x00\x48\x8b\x88\x70\x02\x00\x00\x48\xc7\x80\x70\x02\x00\x00\x50\x01\x10\x00\x48\x89\x0d\x6c\x03\x00\x00\x48\x8b\x48\x30\x48\xc7\x40\x30\x66\x02\x10\x00\x48\x89\x0d\x49\x03\x00\x00\x0f\x22\xc2\x31\xc0'
+
+to_find =bytes.fromhex('0f 20 c2 48 89 d1 48 81')
+print(data.find(to_find))
+
+print(data[data.find(to_find):data.find(to_find)+20])
+
+to_write = data.find(to_find)
+sh = asm("""
+mov rcx, 0xffffffffaccc7710
+mov [rax+0x6c8],rcx
+mov rcx, 0Xffffffffaccc7610
+mov [rax+0x270],rcx
+mov rcx, 0xffffffffaccbad30
+mov [rax+0X30],rcx
+""",arch='amd64')
+
+print(sh)
+
+data2 = data[:to_write] + sh.ljust(len(normal),b'\x90') + data[to_write+len(normal):]
+
+open('ecsc_mod2.ko','wb').write(data2)

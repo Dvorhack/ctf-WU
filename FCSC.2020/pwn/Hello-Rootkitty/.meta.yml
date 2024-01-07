@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'kernel'
+  notes:
+    - 'ROP in syscall, remove module'

@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  hello-rootkitty-harder:
+    image: anssi/fcsc2020-pwn-hello-rootkitty-harder:latest
+    ports:
+      - "2222:22"
+      - "1234:1234"
