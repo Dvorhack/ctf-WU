@@ -14,21 +14,25 @@ Write-ups repo
 - find libc, got overwrite -> [HackSecuReims.2023/pwn/rot13_as_a_service](./HackSecuReims.2023/pwn/rot13_as_a_service/)
 ### misc
 - int overflow, function poiner exploit, format string -> [LIT.2023/pwn/sha_sha_shell](./LIT.2023/pwn/sha_sha_shell/)
+- patch binary -> [FCSC.2020/pwn/Patchinko](./FCSC.2020/pwn/Patchinko/)
 - exec elf with size constraint -> [AmateursCTF.2023/pwn/elf1](./AmateursCTF.2023/pwn/elf1/)
 - int type juggeling -> [AmateursCTF.2023/pwn/hex2](./AmateursCTF.2023/pwn/hex2/)
 - int type juggeling -> [AmateursCTF.2023/pwn/hex](./AmateursCTF.2023/pwn/hex/)
 - rust - c interconnexion -> [AmateursCTF.2023/pwn/ffi](./AmateursCTF.2023/pwn/ffi/)
 - one byte overflow -> [HackSecuReims.2023/pwn/configuration_loader](./HackSecuReims.2023/pwn/configuration_loader/)
+### kernel
+- ROP in syscall, remove module -> [FCSC.2020/pwn/Hello-Rootkitty](./FCSC.2020/pwn/Hello-Rootkitty/)
+- just do a syscall -> [FCSC.2020/pwn/Pepin](./FCSC.2020/pwn/Pepin/)
+- shellcode edit syscall table -> [FCSC.2020/pwn/Hello-Rootkitty-harder](./FCSC.2020/pwn/Hello-Rootkitty-harder/)
+- kernel heap UAF, dump ramfs -> [corCTF.2023/pwn/kcipher](./corCTF.2023/pwn/kcipher/)
+- qemu monitor available -> [corCTF.2023/pwn/zeroday](./corCTF.2023/pwn/zeroday/)
+- bypass kaslr, ROP -> [ImaginaryCTF.2023/pwn/opportunity](./ImaginaryCTF.2023/pwn/opportunity/)
+- bypass kaslr, physmap -> [ImaginaryCTF.2023/pwn/opportunity](./ImaginaryCTF.2023/pwn/opportunity/)
 ### heap
 - UAF -> [FCSC.2023/pwn/robot](./FCSC.2023/pwn/robot/)
 - fastbin dup -> [ImaginaryCTF.2023/pwn/mailman](./ImaginaryCTF.2023/pwn/mailman/)
 - user after free -> [404CTF.2023/pwn/alchimiste](./404CTF.2023/pwn/alchimiste/)
 - fastbin dup, tcache poisoning, leak environ, ROP, seccomp -> [CrewCTF.2023/pwn/company](./CrewCTF.2023/pwn/company/)
-### kernel
-- kernel heap UAF, dump ramfs -> [corCTF.2023/pwn/kcipher](./corCTF.2023/pwn/kcipher/)
-- qemu monitor available -> [corCTF.2023/pwn/zeroday](./corCTF.2023/pwn/zeroday/)
-- bypass kaslr, ROP -> [ImaginaryCTF.2023/pwn/opportunity](./ImaginaryCTF.2023/pwn/opportunity/)
-- bypass kaslr, physmap -> [ImaginaryCTF.2023/pwn/opportunity](./ImaginaryCTF.2023/pwn/opportunity/)
 ### stack
 - ret2dlresolve -> [ImaginaryCTF.2023/pwn/minimal](./ImaginaryCTF.2023/pwn/minimal/)
 - fmt for canary then ret2plt ret2win -> [404CTF.2023/pwn/cohue](./404CTF.2023/pwn/cohue/)
