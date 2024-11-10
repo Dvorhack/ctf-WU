@@ -1,0 +1,6 @@
+finished: True
+category: 'pwn'
+pwn:
+  type: 'stack'
+  notes:
+    - 'srop ; stack pivot'
